@@ -13,7 +13,6 @@
         '-Wextra',
         '-Wno-unused-parameter',  # Squelches warnings coming from v8.h.
         '-fno-exceptions',
-        '-fno-rtti',
       ],
       # Have to repeat flags on mac because of gyp's xcode emulation "feature".
       'xcode_settings': {
