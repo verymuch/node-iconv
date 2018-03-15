@@ -17,7 +17,7 @@
       # Have to repeat flags on mac because of gyp's xcode emulation "feature".
       'xcode_settings': {
         'GCC_ENABLE_CPP_EXCEPTIONS': 'NO',
-        'GCC_ENABLE_CPP_RTTI': 'NO',
+        'GCC_ENABLE_CPP_RTTI': 'YES',
         'WARNING_CFLAGS': ['-Wall', '-Wextra', '-Wno-unused-parameter'],
       },
       'conditions': [
